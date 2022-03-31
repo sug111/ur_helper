@@ -1,0 +1,17 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
