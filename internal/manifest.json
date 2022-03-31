@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-32689e7c.js",
+    "file": "start-f34f83e8.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -59,7 +59,7 @@
     ]
   },
   "src/routes/индивидуальный_предприниматель/index.svelte": {
-    "file": "pages/индивидуальный_предприниматель/index.svelte-fca6773a.js",
+    "file": "pages/индивидуальный_предприниматель/index.svelte-0dd71a0b.js",
     "src": "src/routes/индивидуальный_предприниматель/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -76,7 +76,7 @@
     ]
   },
   "src/routes/индивидуальный_предприниматель/pages/index.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/index.md-9cfbbb9c.js",
+    "file": "pages/индивидуальный_предприниматель/pages/index.md-39a0e33e.js",
     "src": "src/routes/индивидуальный_предприниматель/pages/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
