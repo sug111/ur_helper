@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7dc66d42.js",
+    "file": "start-af3499b4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-f0a05142.js",
+    "file": "pages/index.svelte-673dcb63.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -55,11 +55,11 @@
       "_vendor-d8f38dc9.js"
     ],
     "css": [
-      "assets/pages/index.svelte-e9954c76.css"
+      "assets/pages/index.svelte-f0acd9d3.css"
     ]
   },
   "src/routes/индивидуальный_предприниматель/index.svelte": {
-    "file": "pages/индивидуальный_предприниматель/index.svelte-9c0a3d9a.js",
+    "file": "pages/индивидуальный_предприниматель/index.svelte-5f95043c.js",
     "src": "src/routes/индивидуальный_предприниматель/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -76,7 +76,7 @@
     ]
   },
   "src/routes/индивидуальный_предприниматель/pages/index.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/index.md-518bb45c.js",
+    "file": "pages/индивидуальный_предприниматель/pages/index.md-aa554ccf.js",
     "src": "src/routes/индивидуальный_предприниматель/pages/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -84,6 +84,9 @@
       "_vendor-d8f38dc9.js",
       "_MdLayout-acebda9d.js",
       "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/индивидуальный_предприниматель/pages/index.md-92e7d109.css"
     ]
   },
   "src/routes/индивидуальный_предприниматель/pages/step_1.md": {
