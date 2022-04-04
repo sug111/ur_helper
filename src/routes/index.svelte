@@ -10,77 +10,68 @@
 </script>
 
 <main>
-	<h1 class="title">Помощник регистрации, я...</h1>
-
 	<div class="cards">
-		<a href="/индивидуальный_предприниматель" class="ip">
-			<img src="/img/ip.jpg" alt="Индивидуальный предприниматель" />
-			<!-- Индивидуальный предпрениматель -->
+		<a href="ip" class="ip">
+			<span>Индивидуальный <br /> предприниматель</span>
 		</a>
-		<a href="/самозанятый" class="self">
-			<img src="/img/self.jpg" alt="" />
-			<!-- Самозянятый -->
-		</a>
-		<a href="/юридическое_лицо" class="ur">
-			<img src="/img/ur.jpg" alt="" />
-			<!-- Юредичесткое лицо -->
-		</a>
+		<a href="self" class="self"> <span>Самозянятый</span> </a>
+		<a href="ur" class="ur"> <span>Юредичесткое лицо</span> </a>
+		<a href="map" class="map"> <span>Карты</span> </a>
 	</div>
 </main>
 
 <style>
-	main {
-		text-align: center;
+	:root {
+		--font-size: 2rem;
 	}
 
 	.cards {
-		padding: 2em 0;
-		display: flex;
-		align-items: center;
+		display: grid;
+		align-self: center;
 		justify-content: center;
-		flex-wrap: wrap;
-		gap: 10px;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		padding: 1.5rem;
+		height: 100%;
+		gap: 1.5rem;
 	}
 
 	a {
-		display: block;
 		position: relative;
-		height: 270px;
-		border: none;
-		transition: 0.2s;
-	}
 
-	a::before {
-		content: '';
-		position: absolute;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 100%;
+
 		width: 100%;
+		max-height: 380px;
+		border: none;
+		transition: 0.2s;
+
+		text-decoration: none;
 		color: #fff;
-		transition: 0.4s;
-		font-size: 2rem;
+		font-size: var(--font-size);
+
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		aspect-ratio: 16 / 9;
+	}
+
+	a span {
 		z-index: 10;
 	}
 
-	a:hover::before {
-		font-size: 2.5rem;
+	a:hover {
+		font-size: calc(var(--font-size) * 1.2);
 	}
 
-	.ip::before {
-		content: 'индивидуальный предприниматель';
-	}
-
-	.self::before {
-		content: 'самозанятый';
-	}
-
-	.ur::before {
-		content: 'юридическое лицо';
-	}
-
-	a::after {
+	a::before {
 		content: '';
 		position: absolute;
 		left: 0;
@@ -89,44 +80,38 @@
 		height: 100%;
 		background: black;
 		transition: 0.2s;
-		opacity: .5;
-	}
-
-	a:hover::after {
-		opacity: .8;
-	}
-
-	/* a::after {
-		content: '';
-		position: absolute;
-		z-index: 10;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color: #fff;
-		content: '';
-		background: black;
-		opacity: 0;
-		transition: 0.2s;
-	}
-
-	a::before {
-		content: '';
-		position: absolute;
-		z-index: 10;
-		width: 100%;
-		height: 100%;
-		color: #fff;
+		opacity: 0.5;
 	}
 
 	a:hover::before {
-		opacity: 0.6;
-	} */
+		opacity: 0.8;
+	}
 
-	a img {
-		object-fit: cover;
-		height: 100%;
+	.ip {
+		background-image: url('/ur_helper/img/ip.jpg');
+		justify-self: end;
+		align-self: end;
+	}
+
+	.self {
+		background-image: url('/ur_helper/img/self.jpg');
+		align-self: end;
+	}
+
+	.ur {
+		background-image: url('/ur_helper/img/ur.jpg');
+		justify-self: end;
+		align-self: start;
+	}
+
+	.map {
+		background-image: url('/ur_helper/img/map.jpg');
+		align-self: start;
+	}
+
+	@media (max-width: 800px) {
+		.cards {
+			grid-template-columns: 1fr;
+		}
 	}
 </style>

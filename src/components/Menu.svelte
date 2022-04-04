@@ -15,7 +15,7 @@
 
 	const nextPage = () => ($page.pageNum += 1);
 	const previousPage = () => ($page.pageNum -= 1);
-	const goHome = () => goto('/');
+	const goHome = () => goto('/ur_helper/');
 </script>
 
 <svelte:window on:keydown={handleKeydown} />

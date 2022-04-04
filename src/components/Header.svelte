@@ -4,8 +4,8 @@
 
 <header>
 	<nav>
-		<a href="/">
-			<img class="logo" src="/img/logo.svg" alt="Мой логотип" />
+		<a href="/ur_helper/">
+			<img class="logo" src="img/logo.svg" alt="Мой логотип" />
 		</a>
 
 		<a href="https://github.com/sugjo" class="gitlogo">GitHub</a>
