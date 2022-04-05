@@ -18,7 +18,9 @@
 		{/if}
 	</div>
 
-	<slot />
+	<section>
+		<slot />
+	</section>
 
 	<Menu />
 </main>
@@ -35,6 +37,7 @@
 		max-width: 1200px;
 		width: 100%;
 		justify-self: center;
+		justify-content: space-between;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

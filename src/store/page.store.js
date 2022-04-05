@@ -1,4 +1,4 @@
-import { writable } from "svelte/store";
+import { writable } from "svelte-local-storage-store";
 
 const pageDefault = {
     currentPage: "",
@@ -6,4 +6,4 @@ const pageDefault = {
     pageNum: 0
 };
 
-export const page = writable(pageDefault);
+export const page = writable("ur_helper_storage", pageDefault);

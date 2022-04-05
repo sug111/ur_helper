@@ -4,8 +4,8 @@
 	"homepage": "http://sug111.github.io/ur_helper",
 	"scripts": {
 		"dev": "svelte-kit dev",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d build -t",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"mdsvex": "^0.10.5"
+		"mdsvex": "^0.10.5",
+		"svelte-local-storage-store": "^0.2.6"
 	}
 }
