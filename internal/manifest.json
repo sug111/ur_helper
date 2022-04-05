@@ -1,232 +1,242 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c160e654.js",
+    "file": "start-b5ac051f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
+      "_vendor-5dfb4020.js",
       "_singletons-d1fb5791.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
-      "src/routes/индивидуальный_предприниматель/index.svelte",
-      "src/routes/индивидуальный_предприниматель/pages/index.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_1.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_2.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_3.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_4.md",
-      "src/routes/юридическое_лицо/index.svelte",
-      "src/routes/юридическое_лицо/pages/page_1.md",
-      "src/routes/юридическое_лицо/pages/page_2.md",
-      "src/routes/самозанятый/index.svelte",
-      "src/routes/самозанятый/pages/page_1.md",
-      "src/routes/самозанятый/pages/page_2.md"
+      "src/routes/self/index.svelte",
+      "src/routes/self/pages/page_1.md",
+      "src/routes/self/pages/page_2.md",
+      "src/routes/map/index.svelte",
+      "src/routes/ip/index.svelte",
+      "src/routes/ip/pages/index.md",
+      "src/routes/ip/pages/step_1.md",
+      "src/routes/ip/pages/step_2.md",
+      "src/routes/ip/pages/step_3.md",
+      "src/routes/ip/pages/step_4.md",
+      "src/routes/ur/index.svelte",
+      "src/routes/ur/pages/page_1.md",
+      "src/routes/ur/pages/page_2.md"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-9be16e46.js",
+    "file": "pages/__layout.svelte-f33c11bb.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js"
+      "_vendor-5dfb4020.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-857276f8.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-ff44d9a4.js",
+    "file": "error.svelte-6f2b05f9.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js"
+      "_vendor-5dfb4020.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-cae49d36.js",
+    "file": "pages/index.svelte-3dc65483.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js"
+      "_vendor-5dfb4020.js"
     ],
     "css": [
-      "assets/pages/index.svelte-526ffa2c.css"
+      "assets/pages/index.svelte-0fe8e016.css"
     ]
   },
-  "src/routes/индивидуальный_предприниматель/index.svelte": {
-    "file": "pages/индивидуальный_предприниматель/index.svelte-b86d4718.js",
-    "src": "src/routes/индивидуальный_предприниматель/index.svelte",
+  "src/routes/self/index.svelte": {
+    "file": "pages/self/index.svelte-e33e6adf.js",
+    "src": "src/routes/self/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "src/routes/индивидуальный_предприниматель/pages/index.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_1.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_2.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_3.md",
-      "src/routes/индивидуальный_предприниматель/pages/step_4.md",
-      "_MdLayout-405536f4.js",
+      "_vendor-5dfb4020.js",
+      "src/routes/self/pages/page_1.md",
+      "src/routes/self/pages/page_2.md",
+      "_MdLayout-3351ff07.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/self/pages/page_1.md": {
+    "file": "pages/self/pages/page_1.md-6b517b17.js",
+    "src": "src/routes/self/pages/page_1.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/self/pages/page_2.md": {
+    "file": "pages/self/pages/page_2.md-6359bc78.js",
+    "src": "src/routes/self/pages/page_2.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/map/index.svelte": {
+    "file": "pages/map/index.svelte-b095d8cb.js",
+    "src": "src/routes/map/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-5dfb4020.js"
+    ]
+  },
+  "src/routes/ip/index.svelte": {
+    "file": "pages/ip/index.svelte-e8c1dab9.js",
+    "src": "src/routes/ip/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-5dfb4020.js",
+      "src/routes/ip/pages/index.md",
+      "src/routes/ip/pages/step_1.md",
+      "src/routes/ip/pages/step_2.md",
+      "src/routes/ip/pages/step_3.md",
+      "src/routes/ip/pages/step_4.md",
+      "_MdLayout-3351ff07.js",
       "_singletons-d1fb5791.js",
-      "_InfoBar-9fcaf6a1.js"
+      "_InfoBar-497f06c3.js"
     ]
   },
-  "src/routes/индивидуальный_предприниматель/pages/index.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/index.md-2b5134c7.js",
-    "src": "src/routes/индивидуальный_предприниматель/pages/index.md",
+  "src/routes/ip/pages/index.md": {
+    "file": "pages/ip/pages/index.md-c7bbd3ca.js",
+    "src": "src/routes/ip/pages/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/индивидуальный_предприниматель/pages/index.md-92e7d109.css"
+      "assets/pages/ip/pages/index.md-83e8d05e.css"
     ]
   },
-  "src/routes/индивидуальный_предприниматель/pages/step_1.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/step_1.md-a680717c.js",
-    "src": "src/routes/индивидуальный_предприниматель/pages/step_1.md",
+  "src/routes/ip/pages/step_1.md": {
+    "file": "pages/ip/pages/step_1.md-88bdeccd.js",
+    "src": "src/routes/ip/pages/step_1.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
-      "_InfoBar-9fcaf6a1.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
+      "_InfoBar-497f06c3.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/индивидуальный_предприниматель/pages/step_2.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/step_2.md-fd5a97ea.js",
-    "src": "src/routes/индивидуальный_предприниматель/pages/step_2.md",
+  "src/routes/ip/pages/step_2.md": {
+    "file": "pages/ip/pages/step_2.md-8e8c5466.js",
+    "src": "src/routes/ip/pages/step_2.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
-      "_InfoBar-9fcaf6a1.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
+      "_InfoBar-497f06c3.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/индивидуальный_предприниматель/pages/step_3.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/step_3.md-b7ce335a.js",
-    "src": "src/routes/индивидуальный_предприниматель/pages/step_3.md",
+  "src/routes/ip/pages/step_3.md": {
+    "file": "pages/ip/pages/step_3.md-caba5d7c.js",
+    "src": "src/routes/ip/pages/step_3.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
-      "_InfoBar-9fcaf6a1.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
+      "_InfoBar-497f06c3.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/индивидуальный_предприниматель/pages/step_4.md": {
-    "file": "pages/индивидуальный_предприниматель/pages/step_4.md-74aae4e4.js",
-    "src": "src/routes/индивидуальный_предприниматель/pages/step_4.md",
+  "src/routes/ip/pages/step_4.md": {
+    "file": "pages/ip/pages/step_4.md-fe577422.js",
+    "src": "src/routes/ip/pages/step_4.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
-      "_InfoBar-9fcaf6a1.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
+      "_InfoBar-497f06c3.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/юридическое_лицо/index.svelte": {
-    "file": "pages/юридическое_лицо/index.svelte-f560bfb7.js",
-    "src": "src/routes/юридическое_лицо/index.svelte",
+  "src/routes/ur/index.svelte": {
+    "file": "pages/ur/index.svelte-25ce7d95.js",
+    "src": "src/routes/ur/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "src/routes/юридическое_лицо/pages/page_1.md",
-      "src/routes/юридическое_лицо/pages/page_2.md",
-      "_MdLayout-405536f4.js",
+      "_vendor-5dfb4020.js",
+      "src/routes/ur/pages/page_1.md",
+      "src/routes/ur/pages/page_2.md",
+      "_MdLayout-3351ff07.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/юридическое_лицо/pages/page_1.md": {
-    "file": "pages/юридическое_лицо/pages/page_1.md-c3a947c0.js",
-    "src": "src/routes/юридическое_лицо/pages/page_1.md",
+  "src/routes/ur/pages/page_1.md": {
+    "file": "pages/ur/pages/page_1.md-c0264d9c.js",
+    "src": "src/routes/ur/pages/page_1.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/юридическое_лицо/pages/page_2.md": {
-    "file": "pages/юридическое_лицо/pages/page_2.md-96a7c840.js",
-    "src": "src/routes/юридическое_лицо/pages/page_2.md",
+  "src/routes/ur/pages/page_2.md": {
+    "file": "pages/ur/pages/page_2.md-d0e618af.js",
+    "src": "src/routes/ur/pages/page_2.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
+      "_vendor-5dfb4020.js",
+      "_MdLayout-3351ff07.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/самозанятый/index.svelte": {
-    "file": "pages/самозанятый/index.svelte-092b05b3.js",
-    "src": "src/routes/самозанятый/index.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-d8f38dc9.js",
-      "src/routes/самозанятый/pages/page_1.md",
-      "src/routes/самозанятый/pages/page_2.md",
-      "_MdLayout-405536f4.js",
-      "_singletons-d1fb5791.js"
-    ]
-  },
-  "src/routes/самозанятый/pages/page_1.md": {
-    "file": "pages/самозанятый/pages/page_1.md-96eb6f0f.js",
-    "src": "src/routes/самозанятый/pages/page_1.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
-      "_singletons-d1fb5791.js"
-    ]
-  },
-  "src/routes/самозанятый/pages/page_2.md": {
-    "file": "pages/самозанятый/pages/page_2.md-2cb9c516.js",
-    "src": "src/routes/самозанятый/pages/page_2.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-d8f38dc9.js",
-      "_MdLayout-405536f4.js",
-      "_singletons-d1fb5791.js"
-    ]
-  },
-  "_vendor-d8f38dc9.js": {
-    "file": "chunks/vendor-d8f38dc9.js"
+  "_vendor-5dfb4020.js": {
+    "file": "chunks/vendor-5dfb4020.js"
   },
   "_singletons-d1fb5791.js": {
     "file": "chunks/singletons-d1fb5791.js"
   },
-  "_MdLayout-405536f4.js": {
-    "file": "chunks/MdLayout-405536f4.js",
+  "_MdLayout-3351ff07.js": {
+    "file": "chunks/MdLayout-3351ff07.js",
     "imports": [
-      "_vendor-d8f38dc9.js",
+      "_vendor-5dfb4020.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/MdLayout-b460fbd0.css"
+      "assets/MdLayout-cb81d789.css"
     ]
   },
-  "_InfoBar-9fcaf6a1.js": {
-    "file": "chunks/InfoBar-9fcaf6a1.js",
+  "_InfoBar-497f06c3.js": {
+    "file": "chunks/InfoBar-497f06c3.js",
     "imports": [
-      "_vendor-d8f38dc9.js"
+      "_vendor-5dfb4020.js"
     ],
     "css": [
       "assets/InfoBar-6881f321.css"
