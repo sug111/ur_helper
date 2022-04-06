@@ -10,7 +10,7 @@
 
 <svelte:head>
 	<title>
-		Юридический помощник {$page.currentPage ? `- ${$page.currentPage.toLowerCase()}` : ''}
+		Юридический помощник {$page.currentPage ? `- ${$page.currentPage?.toLowerCase()}` : ''}
 	</title>
 </svelte:head>
 

@@ -5,7 +5,7 @@
 	const page = getContext('page');
 
 	onMount(() => {
-		$page.currentPage = null;
+		$page.currentPage = "";
 		$page.pageNum = 0;
 	});
 
