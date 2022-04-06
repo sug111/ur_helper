@@ -1,14 +1,14 @@
 <script>
-    export let cards
+	export let cards;
 </script>
 
 <div class="cards">
 	{#each cards as card}
-        <a href="{card.url}">
-            <h3>{card.title}</h3>
-            <img src="{card.image}" alt="{card.title}">
-        </a>
-    {/each}
+		<a href={card.url}>
+			<h3>{card.title}</h3>
+			<img src={card.image} alt={card.title} />
+		</a>
+	{/each}
 </div>
 
 <style>
@@ -20,7 +20,7 @@
 		display: grid;
 		align-self: center;
 		justify-content: center;
-        align-content: center;
+		align-content: center;
 		align-items: center;
 		grid-template-columns: repeat(2, minmax(430px, 850px));
 		grid-auto-rows: minmax(430px, 500px);
@@ -56,16 +56,16 @@
 		background-size: cover;
 	}
 
-    img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
 
-    h3 {
-        z-index: 1;
-        position: absolute;
-    }
+	h3 {
+		z-index: 1;
+		position: absolute;
+	}
 
 	a:hover {
 		font-size: calc(var(--font-size) * 1.2);
@@ -87,9 +87,23 @@
 		opacity: 0.8;
 	}
 
-	@media (max-width: 800px) {
+	@media (max-width: 940px) {
 		.cards {
-			grid-template-columns: minmax(430px, 850px);
+			grid-template-columns: 1fr;
+			padding: 1.5rem 0;
+		}
+	}
+
+	@media (max-width: 450px) {
+		.cards a {
+			font-size: calc(var(--font-size) / 1.5);
+		}
+
+		a:hover {
+			font-size: calc(var(--font-size) / 1.5 * 1.2);
+		}
+
+		.cards {
 			padding: 1.5rem 0;
 		}
 	}

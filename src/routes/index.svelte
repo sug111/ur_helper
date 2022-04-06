@@ -21,7 +21,7 @@
 			url: "self",
 		},
 		{
-			title: "Юредичесткое лицо",
+			title: "Юридичесткое лицо",
 			image: "img/ur.jpg",
 			url: "ur",
 		},
@@ -35,5 +35,4 @@
 
 <main>
 	<Cards {cards}/>
-	
 </main>

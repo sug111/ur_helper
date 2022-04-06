@@ -1,12 +1,12 @@
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    min-height: 100%;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	min-height: 100%;
 
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
+	display: grid;
+	grid-template-rows: min-content 1fr min-content;
 }
 
 body {
-    margin: 0;
-    height: 100vh;
+	margin: 0;
+	height: 100vh;
 }
