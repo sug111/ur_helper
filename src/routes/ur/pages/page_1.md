@@ -1,10 +1,4 @@
 ---
-title: само занятый
-subTitle: тест 1
+title: Юридичесткое лицо
+subTitle: 1. 
 ---
-
-<script>
-
-</script>
-
-Lorem ipsum dolo
