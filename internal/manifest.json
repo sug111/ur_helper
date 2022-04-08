@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c10c0afb.js",
+    "file": "start-11f6a807.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -100,7 +100,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/ur/pages/index.md-0f248505.css"
+      "assets/pages/ip/pages/index.md-83e8d05e.css"
     ]
   },
   "src/routes/self/pages/page_1.md": {
@@ -114,7 +114,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/ur/pages/index.md-0f248505.css"
+      "assets/pages/ip/pages/index.md-83e8d05e.css"
     ]
   },
   "src/routes/self/pages/page_2.md": {
@@ -210,7 +210,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/ur/pages/index.md-0f248505.css"
+      "assets/pages/ip/pages/index.md-83e8d05e.css"
     ]
   },
   "src/routes/ip/pages/step_1.md": {
@@ -292,7 +292,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/ur/pages/index.md-0f248505.css"
+      "assets/pages/ip/pages/index.md-83e8d05e.css"
     ]
   },
   "src/routes/ur/pages/page_1.md": {
