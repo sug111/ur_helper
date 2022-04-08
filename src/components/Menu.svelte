@@ -20,7 +20,7 @@
 
 <svelte:window on:keydown={handleKeydown} />
 
-<div class="buttons">
+<div class="buttons" style={!$page.maxCurrentPage?"visibility:hidden":""}>
 	<button on:click={previousPage} class="previous-page" disabled={isFirstPage}>
 		<span class="material-icons"> arrow_back </span>
 	</button>
@@ -46,7 +46,7 @@
 
 		background: none;
 		border: 0;
-		opacity: .8;
+		opacity: 0.8;
 	}
 
 	.buttons button:hover {

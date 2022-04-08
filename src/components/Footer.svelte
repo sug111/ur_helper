@@ -15,7 +15,7 @@
 	</div>
 	<div class="footer__block">
 		<span>О нас</span>
-		<a class="link" href="##">О проекте</a>
+		<a class="link" href="/ur_helper/about">О проекте</a>
 	</div>
 </footer>
 
